@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        const b = 20;
+        console.log(b);
+    </script>
+    <script src="b1.js"></script>
+    <style>
+        h1 {
+            border: 2px solid red;
+            color: aqua;
+        }
+    </style>
 </head>
+
 <body>
+    <!--
+    html 화면에 나오게 하는 거
+    css = 화면에 디자인하는 거
+    javascript = 누르면 변화 일어나는 거
+    -->
+    <!--
+        cmd + -> = 소스 제일 오른쪽
+        cmd + <- = 소스 제일 왼쪽
+        shift + tab = 내어쓰기
+        cmd + x = 한 줄 삭제
+        option + shift + f = 소스 자동 정렬
+    -->
     <h1>안녕하세요 1학년 1반입니다. 오후입니다.</h1>
 </body>
+
 </html>
+<script>
+    const qqq = document.getElementsByTagName('h1');
+    qqq[0].onclick = function () {
+        alert('눌렀음');
+    }
+</script>

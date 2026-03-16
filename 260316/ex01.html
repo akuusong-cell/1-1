@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<!-- 부트스트랩을 쓸려면 css, js가져와야함
+커멘드 화살표 시프트 = 블록지정
+p-3 = 패딩을 1rem만큼 준다
+img src = 뒤에는 이미지 주소 넣는 거..
+w = 크기..????
+input:text*2
+이거 치고 엔터 치면 22~23줄이 됨!!!-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+
+    <input type="text" name="" id="num1">
+    <input type="text" name="" id="num2">
+
+    <button class="btn btn-primary p-3">버튼</button>
+    <button class="btn btn-primary" style="padding: 1rem; margin: 1rem;">버튼</button>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cataas.com/cat" class="d-block w-30" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.biteme.co.kr/blog/wp-content/uploads/2025/04/491b87a0-1913-43ab-92e3-b16c2a1e6f82.jpg" class="d-block w-30" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.imweb.me/upload/S20220518fbea59f8e9828/77d99edcb5dbf.jpg" class="d-block w-30" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!--가져왔음!-->

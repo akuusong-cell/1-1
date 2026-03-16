@@ -12,6 +12,12 @@
             padding: 1rem;
             margin: 1rem;
         }
+
+        button {
+            background-color: rgb(164, 164, 164);
+            padding: 1rem 3rem;
+            margin: 1.5rem;
+        }
     </style>
 </head>
 
@@ -21,6 +27,18 @@
         <label for="">id</label>
         <input type="text" name="" id="">
     </div>
+    <div>
+        <label for="me">password</label>
+        <input type="password" id="me">
+    </div>
+
+    <button>완료</button>
 </body>
 
 </html>
+<script>
+    const qqq = document.getElementsByTagName('h1');
+    qqq[0].onclick = function () {
+        alert('로그인 하라고.');
+    }
+</script>
